@@ -1,0 +1,59 @@
+.td-item{
+  background-color: #183153;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  border-radius: 10px;
+}
+
+
+.TodoItem-p {
+  margin: 15px 0 15px 15px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.Icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  /* background-color: #CCC; */
+}
+
+.Icon-check {
+  position: relative;
+  left: 12px;
+}
+.Icon-check--active {
+  color: #4caf50;
+}
+
+
+.Icon-delete {
+  position: relative;
+  right: 0;
+}
+.Icon-delete:hover {
+  color: red;
+}
+
+.Icon-edit {
+  position: relative;
+  right: 0;
+}
+.Icon-edit:hover {
+  color: #1268c8;
+}

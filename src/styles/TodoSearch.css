@@ -1,0 +1,21 @@
+.td-search {
+  background-color: #183153;
+  color: #fffff4;
+  border-radius: 15px;
+  border: 2px solid #6d0da1;
+  margin: 0 24px;
+  height: 44px;
+  width: calc(100% - 62px);
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.td-search:focus {
+  outline-color: #61dafa;
+}
+
+.td-search:disabled {
+  cursor: wait;
+  opacity: 25%;
+}
